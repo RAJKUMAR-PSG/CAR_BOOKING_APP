@@ -1,0 +1,58 @@
+.home{
+    .features{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        padding: 100px       0px;
+       
+        .container{
+            width: 1400px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        .item{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            &:first-child{
+                flex:2;
+            }
+            &:last-child{
+                flex:3;
+            }
+            h1{
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 300px;
+                color: gray;
+                line-height: 28px;
+                letter-spacing: 1px;
+            }
+            .title{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-weight: 500;
+                font-size: 18px;
+                color: gray;
+               
+                img
+                   {
+                     width: 15px;
+                     height: 15px;
+                     margin-top: -1px;
+                     margin-left: 2px;
+                   }
+
+            }
+
+            video{
+                width: 720px;
+            }
+        }
+     }
+  }
+}
